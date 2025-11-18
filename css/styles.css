@@ -554,3 +554,33 @@ contact
 footer
 ===============
 */
+
+.footer {
+  background: #222;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 1rem 0;
+}
+
+.social-icon {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  color: var(--clr-primary);
+}
+
+.footer-text {
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.company {
+  color: var(--clr-primary-light);
+}
